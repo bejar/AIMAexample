@@ -28,14 +28,8 @@ public class ProbIA5Board {
     }
 
     /* vvvvv TO COMPLETE vvvvv */
-    /* Operators = Condition + action */
-    public boolean can_flip(int i){
-        // we can flip if  0<=i<board.length
-        return true;
-    }
-
     public void flip_it(int i){
-        // flip the coin i and i + 1
+        // flip the coins i and i + 1
     }
 
     /* Heuristic function */

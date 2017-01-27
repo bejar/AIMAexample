@@ -7,12 +7,19 @@ import aima.search.framework.Problem;
 import aima.search.framework.Search;
 import aima.search.framework.SearchAgent;
 import aima.search.informed.AStarSearch;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Properties;
 
 public class Main {
 
     public static void main(String[] args) throws Exception{
-        int [] prob = {1 ,0, 1, 1, 0};
-        int [] sol = {1, 1, 0, 1, 0};
+        /**
+         *  For a problem to be solvable:
+         *    count(0,prob) % 2 == count(0,sol) %2
+         */
+        int [] prob = new int []{1 ,0, 1, 1, 0};
+        int [] sol = new int[]{1, 1, 0, 1, 0};
 
         ProbIA5Board board = new ProbIA5Board(prob, sol );
 
