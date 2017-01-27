@@ -27,6 +27,7 @@ public class ProbIA5Board {
 
     }
 
+    /* vvvvv TO COMPLETE vvvvv */
     /* Operators = Condition + action */
     public boolean can_flip(int i){
         // we can flip if  0<=i<board.length
@@ -34,7 +35,7 @@ public class ProbIA5Board {
     }
 
     public void flip_it(int i){
-        // flip the coin i and i +1
+        // flip the coin i and i + 1
     }
 
     /* Heuristic function */
@@ -49,8 +50,10 @@ public class ProbIA5Board {
          return false;
      }
 
-
      /* auxiliary functions */
 
      // Some functions will be needed for creating a copy of the state
+
+    /* ^^^^^ TO COMPLETE ^^^^^ */
+
 }
