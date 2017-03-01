@@ -19,6 +19,7 @@ public class ProbIA5Board {
     public ProbIA5Board(int []init, int[] goal) {
 
         board = new int[init.length];
+        solution = new int[init.length];
 
         for (int i = 0; i< init.length; i++) {
             board[i] = init[i];
