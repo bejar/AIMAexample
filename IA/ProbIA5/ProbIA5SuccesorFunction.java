@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by bejar on 17/01/17.
+ * Created by bejar on 17/01/17
  */
 public class ProbIA5SuccesorFunction implements SuccessorFunction{
 
